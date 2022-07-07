@@ -3,7 +3,7 @@ import "./style.css"
 
 function Contact() {
     return (
-        <div>
+        <div id="contact">
             <div class="title">
                 <h2>CONTACT US</h2>
             </div>

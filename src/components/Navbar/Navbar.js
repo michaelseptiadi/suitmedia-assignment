@@ -5,12 +5,14 @@ function Navbar() {
     return (
         <div classNameName="navbar">
             <div className="container">
-                <a className="navbar-brand" href="#History">
+                <a className="navbar-brand" href="#about">
                     Company
                 </a>
                 <ul className="navbar-nav">
                     <li className="nav-item navbar-nav dropdown">
-                        <a className="dropbtn">ABOUT</a>
+                        <a className="dropbtn" href="#about">
+                            ABOUT
+                        </a>
                         <div className="dropdown-content">
                             <div className="nav-dropdown">
                                 <a className="nav-item" href="#History">
@@ -18,7 +20,7 @@ function Navbar() {
                                 </a>
                             </div>
                             <div className="nav-dropdown">
-                                <a className="nav-item" href="#History">
+                                <a className="nav-item" href="#Vision">
                                     VISION MISSION
                                 </a>
                             </div>
@@ -30,12 +32,12 @@ function Navbar() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#History">
+                        <a className="nav-link" href="#value">
                             OUR TEAM
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#History">
+                        <a className="nav-link" href="#contact">
                             CONTACT
                         </a>
                     </li>

@@ -6,7 +6,7 @@ import "./style.css"
 function CarouselSlide() {
     let reactSwipeEl
     return (
-        <div className="slideshow-container">
+        <div className="slideshow-container" id="about">
             <ReactSwipe
                 className="carousel"
                 swipeOptions={{ continuous: false }}

@@ -3,7 +3,7 @@ import "./style.css"
 
 function Values() {
     return (
-        <div>
+        <div id="value">
             <div class="title">
                 <h2>OUR VALUES</h2>
             </div>
