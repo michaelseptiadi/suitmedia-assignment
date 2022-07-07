@@ -27,7 +27,7 @@ function Values() {
                         <div class="value-icon-container">
                             <img
                                 class="value-icon"
-                                src={require("../../img/lightbulb-o.png")}
+                                src={require("../../img/bank.png")}
                                 alt="light"
                             />
                         </div>
@@ -42,7 +42,7 @@ function Values() {
                             <div class="value-icon-container">
                                 <img
                                     class="value-icon"
-                                    src={require("../../img/lightbulb-o.png")}
+                                    src={require("../../img/balance-scale.png")}
                                     alt="light"
                                 />
                             </div>
