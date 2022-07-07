@@ -1,0 +1,37 @@
+footer {
+    width: 100%;
+    padding: 30px;
+    background: rgb(53, 53, 53);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer .sosmed {
+    display: flex;
+    justify-content: center;
+}
+
+footer .facebook {
+    margin-right: 15px;
+}
+
+footer .sosmed .icon {
+    height: 36px;
+    width: auto;
+}
+
+.footer-title {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .value-icon {
+        width: 36px;
+        height: auto;
+    }
+}
